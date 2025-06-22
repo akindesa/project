@@ -22,7 +22,6 @@ jobs:
 
       - name: Sync files to S3
         run: aws s3 sync ./public s3://your-unique-bucket-name --delete
-- name: Debug shell
-  run: set -x
+
 
         
